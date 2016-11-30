@@ -1,8 +1,13 @@
+/* Gewoon een voorsmaakje van wat je met SASS kan doen */
+$font-stack:    Helvetica, sans-serif;
+$background-color: #f4f4f7;
+/* Je kan zien hoe je die variabelen hieronder in de body gebruikt */
+
 body{
-  font-family: "Helvetica";
+  font-family: $font-stack;
   text-align: center;
   padding: 50px 20px 0;
-  background: #f4f4f7;
+  background: $background-color;
   color: #444;
   margin: 0;
   width: 80%;
