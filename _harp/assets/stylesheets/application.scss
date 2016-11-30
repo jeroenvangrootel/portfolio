@@ -5,6 +5,8 @@ body{
   background: #f4f4f7;
   color: #444;
   margin: 0;
+  width: 80%;
+  margin: 25px auto;
 }
 
 h1{
@@ -14,6 +16,11 @@ h1{
   padding: 20px 0;
 }
 
-h3{
+h3, p{
+  margin-top: 25px;
   font-weight: 300;
+}
+
+h3 {
+  font-size: 125%;
 }
